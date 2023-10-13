@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 :root {
+  --primary: #003c00;
   --font: 'Exo 2', sans-serif;
   --light-text: #fff;
   --dark-text: #000;
@@ -26,7 +27,7 @@ nav.top-nav {
   left: 0;
   height: 64px;
   width: 100%;
-  background: var(--background-color);
+  background: var(--primary);
   z-index: 99;
 }
 nav.top-nav > img {
@@ -52,8 +53,7 @@ nav.top-nav > ul.open {
 nav.top-nav > ul > li {
   padding: 2%;
   width: 100%;
-  text-align: center;
-  background: var(--background-color);
+  background: var(--primary);
   transition: all 0.2s;
 }
 nav.top-nav > ul > li:hover {
@@ -104,7 +104,7 @@ main {
 footer {
   display: flex;
   flex-direction: column;
-  background: var(--background-color);
+  background: var(--primary);
   color: #fff;
   border-top: solid 4px var(--background-color-hover);
   padding-top: 10px;
