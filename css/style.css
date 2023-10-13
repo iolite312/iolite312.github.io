@@ -134,3 +134,12 @@ footer section:not(:nth-child(2)) {
 footer section:last-child {
   text-align: center;
 }
+button {
+  border-radius: 100px;
+  background: #006400;
+  border-width: 0;
+  padding: 11px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
