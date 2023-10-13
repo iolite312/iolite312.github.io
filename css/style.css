@@ -5,6 +5,7 @@
   --font: 'Exo 2', sans-serif;
   --light-text: #fff;
   --dark-text: #000;
+  --link: #006400;
 }
 
 * {
@@ -25,6 +26,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--link);
 }
 
 h1,
