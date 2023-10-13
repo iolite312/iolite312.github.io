@@ -13,3 +13,26 @@
 #homepage header > img{
     height: 48px;
 }
+.articles {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 65px;
+    gap: 0 24px;
+}
+.articles article {
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px 0;
+}
+.articles article:not(:nth-child(2)) {
+    margin-top: 40px;
+}
+.articles img {
+    width: 345px;
+    height: 345px;
+}
+.articles article h2 {
+    font-size: 32px;
+}
