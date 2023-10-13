@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Leon Watertor">
 	<meta name="keywords" content="HTML, CSS, Python, Tutorials">
 	<meta name="description" content="Hoe begin je met coderen">
-	<link rel="stylesheet" href="../css/style.css">
-	<link rel="stylesheet" href="../css/tipsAndTricks.css">
-	<title>Tips &amp; Tricks - Hoe begin je met coderen</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/tipsAndTricks.css" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+	<script defer src="js/navbar.js"></script>
+	<title>Tips and tricks - Hoe begin je met coderen</title>
 </head>
+
 <body>
 	<header>
 		<nav class="top-nav">
 			<button class="hamburger-menu">
 				<span class="hamburger-menu-lines"></span>
 			</button>
-			<img src="../images/placeholder.jpg" alt="">
+			<img src="images/logo.svg" alt="Logo of the website" title="Logo of the website">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="supplies.html">Benodigdheden</a></li>
@@ -27,42 +31,86 @@
 			</ul>
 		</nav>
 	</header>
-	<main id="tipsandtrickspage">
+	<main id="tipsandtricks">
+		<aside class="breadcrumbs">
+			<a href="index.html">Home</a> / <a href="tipsAndTricks.html">Tips &amp; Tricks</a>
+		</aside>
+		<section>
+			<article>
+				<h2>Wat heb je nodig</h2>
+				<p class="small">Soms is coderen best wel lastig en loop je tegen problemen aan die je niet zo gauw
+					opgelost krijg of juist wel. Dan heb ik misschien nog wel wat tips & tricks waar jij nog misschien
+					niet vanaf wist.</p>
+			</article>
+			<img src="images/placeholder.jpg" alt="foto van pen en papier met een laptop er naast"
+				title="laptop&comma;, pen en papier">
+		</section>
 		<article>
 			<section>
-				<h2>Tips &amp; Tricks</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio nesciunt iure sequi sint porro, tempora adipisci commodi. Officia incidunt repudiandae quidem qui quo! Nisi, ducimus? Magnam reiciendis omnis beatae, ut dolor quasi suscipit asperiores distinctio corrupti illum modi. Nobis accusantium quasi commodi iste quaerat autem nisi doloremque modi minus.</p>
+				<h2>Handige Websites</h2>
+				<p>Handige websites om oplossingen te vinden of je moet weten hoe iets werkt (documentatie bijv). Voor
+					documentatie zou ik gewoon googelen [vervang dit door je taal] documentatie. Maar voor talen zoals
+					HTML, JavaScript, CSS zou ik kijken op W3Schools.com of developer.mozilla.org. En anders kan je
+					altijd nog je error googelen als je die hebt anders is stackoverflow ook een goede website om op te
+					kijken of een vraag te stellen. Nog een klein overzicht met wat extra websites:</p>
 			</section>
-			<section>
+			<section class="handywebsites">
 				<ul>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
+					<li><a href="//stackoverflow.com">Stackoverflow</a></li>
+					<li><a href="//W3Schools.com">W3Schools</a></li>
+					<li><a href="//validator.w3.org">validator.w3.org</a></li>
+					<li><a href="//developer.mozilla.org">developer.mozilla.org (MDN)</a></li>
+					<li><p>Voor inspiratie of voorbeelden kan je ook op <a href="//codepen.io">codepen</a> kijken</p></li>
 				</ul>
 				<figure>
-					<img src="../images/placeholder.jpg" alt="">
+					<img src="images/Stack_Overflow_icon.svg" alt="Logo van stackoverflow" title="Logo van stackoverflow">
+					<img src="images/MDN.svg" alt="Logo van MDN" title="Logo van MDN">
+					<img src="images/Codepen_logo.svg" alt="Logo van codepen.io" title="Logo van codepen.io">
 				</figure>
 			</section>
 		</article>
+
 		<article>
 			<section>
-				<h2>Wat moet je doen als je vast loop</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio nesciunt iure sequi sint porro, tempora adipisci commodi. Officia incidunt repudiandae quidem qui quo! Nisi, ducimus? Magnam reiciendis omnis beatae, ut dolor quasi suscipit asperiores distinctio corrupti illum modi. Nobis accusantium quasi commodi iste quaerat autem nisi doloremque modi minus.</p>
+				<h2>Youtube</h2>
+				<p>Maar youtube is ook een goede bron van hulp en inspiratie om op te zoeken als je ergens tegen aanloop. Een aantal goede youtubers die ik aanraad zijn:</p>
 			</section>
-			<section>
+			<section class="youtube">
 				<ul>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
-					<li>Lorem ipsum dolor sit amet</li>
+					<li><a href="https://www.youtube.com/@KevinPowell">Kevin Powell</a></li>
+					<li><a href="https://www.youtube.com/@WebDevSimplified">WebDevSimplified</a></li>
+					<li><a href="https://www.youtube.com/@TheCodeholic">The Codeholic</a></li>
+					<li><a href="https://www.youtube.com/@WebDevCody">Web dev cody</a></li>
 				</ul>
-				<figure>
-					<img src="../images/placeholder.jpg" alt="">
-				</figure>
+				<section>
+					<figure>
+						<img src="images/kevinPowell.png" alt="Kevin powell from youtube" title="Kevin powell from youtube">
+						<figcaption>Kevin powell</figcaption>
+					</figure>
+					<figure>
+						<img src="images/theCodeholic.png" alt="The codeholic from youtube" title="The codeholic from youtube">
+						<figcaption>The Codeholic</figcaption>
+					</figure>
+					<figure>
+						<img src="images/webDevSimplified.png" alt="webDevSimplified from youtube" title="webDevSimplified from youtube">
+						<figcaption>web Dev Simplified</figcaption>
+					</figure>
+					<figure>
+						<img src="images/webDevCody.png" alt="webDevCody from youtube" title="webDevCody from youtube">
+						<figcaption>Web Dev Cody</figcaption>
+					</figure>
+				</section>
 			</section>
+			<p>Maar zo zijn er nog veel meer youtubers die goede content maken over HTML, CSS en andere codeertalen die er zijn</p>
+		</article>
+		<article>
+			<h2>Mijn tips &amp; tricks</h2>
+			<p>De tips & tricks die ik aan jullie zou willen meegeven zijn:</p>
+			<ol>
+				<li>Als je vast loopt en het wilt niet. Laat alles gewoon even leggen en kom er later op terug, want soms ben je zo gefocused op dat probleem dat je de rest er omheen niet meer ziet</li>
+				<li>Als je ergens tegen aanloop en je weet niet hoe je iets moet oplossen. Wees niet bang om om hulp te vragen aan je klasgenoten of mensen op het internet forms zoals stackoverflow, we moesten allemaal van nul beginnen je bent niet de enigste</li>
+				<li>Als niet weet hoe je iets moet aanpakken. Pak pen en papier en schrijf je probleem uit en de stappen om het probleem op te lossen dit forceerd je om te nadenken hoe je iets moet doen en als je eenmaal een stappenplan heb dan kan je die volgen en heb je in een mum van tijd je probleem opgelost</li>
+			</ol>
 		</article>
 	</main>
 	<footer>
@@ -70,7 +118,7 @@
 			<h3>Navigatie</h3>
 			<nav class="bottom-nav">
 				<ul>
-					<li><a href="../index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="supplies.html">Benodigdheden</a></li>
 					<li><a href="assignments.html">Opdrachten</a></li>
 					<li><a href="futureInICT.html">Toekomst in de ICT</a></li>
@@ -80,16 +128,16 @@
 			</nav>
 		</section>
 		<section>
-			<img src="../images/placeholder.jpg" alt="Logo van de website">
+			<img src="images/logo.svg" alt="Logo van de website">
 		</section>
 		<section>
-			<h3>Contact informatie</h3>
+			<h3>Contactinformatie</h3>
 			<ul>
 				<li>
 					<a href="tel:1234">Tel: 1234</a>
 				</li>
 				<li>
-					<a href="mailto:1@1.com">Mail: 1@1.com</a>
+					<a href="mailto:1@1.com">Mail: 1&commat;1&period;com</a>
 				</li>
 			</ul>
 		</section>
@@ -98,5 +146,5 @@
 		</section>
 	</footer>
 </body>
-<script src="../js/navbar.js"></script>
+
 </html>
