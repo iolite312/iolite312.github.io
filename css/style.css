@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
 :root {
   --primary: #003c00;
   --font: 'Exo 2', sans-serif;
   --light-text: #fff;
   --dark-text: #000;
+  --link: #006400;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-size: 18px;
   font-family: var(--font);
@@ -19,12 +23,33 @@ body {
   line-height: normal;
   letter-spacing: normal;
 }
+
 a {
   text-decoration: none;
+  color: var(--link);
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   color: var(--primary);
 }
+
+button {
+  border-radius: 100px;
+  background: #006400;
+  border-width: 0;
+  padding: 11px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+main {
+  margin-top: 75px;
+}
+
+/* Navbar begin */
 nav.top-nav {
   position: fixed;
   top: 0;
@@ -34,7 +59,8 @@ nav.top-nav {
   background: var(--primary);
   z-index: 99;
 }
-nav.top-nav > img {
+
+nav.top-nav>img {
   display: block;
   position: absolute;
   top: 7px;
@@ -43,7 +69,8 @@ nav.top-nav > img {
   width: 300px;
   transform: translateX(-50%);
 }
-nav.top-nav > ul {
+
+nav.top-nav>ul {
   position: absolute;
   top: 64px;
   list-style: none;
@@ -51,38 +78,43 @@ nav.top-nav > ul {
   transition: all 0.2s;
   transform: translateX(-100%);
 }
-nav.top-nav > ul.open {
+
+nav.top-nav>ul.open {
   transform: translateX(0%);
 }
-nav.top-nav > ul > li {
+
+nav.top-nav>ul>li {
   padding: 2% 24px;
   width: 100%;
   background: var(--primary);
   transition: all 0.2s;
 }
-nav.top-nav > ul > li > a {
+
+nav.top-nav>ul>li>a {
   color: var(--light-text);
   font-size: 18px;
   width: 100%;
   display: block;
 }
 
-nav > .hamburger-menu {
+nav>.hamburger-menu {
   width: 48px;
   height: 24px;
-  margin: 24px 24px;
+  margin: 24px 14px;
   cursor: pointer;
   background: none;
   border: none;
 }
-.hamburger-menu > .hamburger-menu-lines {
+
+.hamburger-menu>.hamburger-menu-lines {
   background: #fff;
   height: 4px;
   width: 48px;
   position: relative;
   display: block;
 }
-.hamburger-menu > .hamburger-menu-lines::before {
+
+.hamburger-menu>.hamburger-menu-lines::before {
   background: #fff;
   height: 4px;
   width: 48px;
@@ -91,7 +123,8 @@ nav > .hamburger-menu {
   position: relative;
   top: -17px;
 }
-.hamburger-menu > .hamburger-menu-lines::after {
+
+.hamburger-menu>.hamburger-menu-lines::after {
   background: #fff;
   height: 4px;
   width: 48px;
@@ -100,46 +133,54 @@ nav > .hamburger-menu {
   position: relative;
   top: 13px;
 }
-/* TODO check out if main can have the margin */
-main {
-  margin-top: 75px;
-}
+
+/* Navbar end */
+/* Footer begin */
 footer {
-  display: flex;
-  flex-direction: column;
+  margin-top: 100px;
+  padding-top: 30px;
   background: var(--primary);
-  color: #fff;
-  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
 }
-footer a {
-  text-decoration: underline;
-  color: #fff;
+
+footer a,
+footer h3 {
+  color: var(--light-text);
+}
+
+footer h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+footer section:nth-child(1) {
+  grid-column: 1 / 2;
+  padding-left: 60px;
 }
 footer ul {
-  list-style: none;
+  padding-left: 16px;
+  color: var(--light-text);
 }
-footer li, footer > section:nth-child(4) > a {
-  padding: 3px 0;
+
+footer section:nth-child(2) {
+  grid-column: 2 / 3;
+  margin: 0 auto;
 }
-footer > section:nth-child(2) {
-  order: -1;
-  display: flex;
-  justify-content: center;
-  margin: 0 24px;
+
+footer section:nth-child(2)>img {
+  width: 385px;
+  height: 100px;
 }
-footer section:not(:nth-child(2)) {
-  margin: 0 24px;
-  padding: 10px 0;
+
+footer section:nth-child(3) {
+  grid-column: 3 / 4;
+  margin-left: 40%;
 }
-footer section:last-child {
-  text-align: center;
-}
-button {
-  border-radius: 100px;
-  background: #006400;
-  border-width: 0;
-  padding: 11px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
+
+footer section:nth-child(4) {
+  grid-column: span 3;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  color: var(--light-text);
 }
