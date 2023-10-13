@@ -1,19 +1,15 @@
-/* main#homepage {
-
-} */
-#homepage article, 
 #homepage header {
     display: flex;
-    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+    padding-top: 40px;
 }
-#homepage article > section,
-#homepage header > section {
-    margin: 10px 24px;
+#homepage header > h1{
+    font-size: 48px;
+    font-weight: 700;
 }
-#homepage > article:nth-child(even) {
-    background: var(--background-color);
-    color: var(--light-text);
-}
-#homepage article h2, #homepage article p {
-    margin: 15px 0;
+#homepage header > img{
+    height: 48px;
 }
