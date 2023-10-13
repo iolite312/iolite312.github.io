@@ -18,14 +18,14 @@ body {
 a {
   text-decoration: none;
 }
-img {
-  width: 100%;
+h1, h2, h3 {
+  color: var(--primary);
 }
 nav.top-nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 64px;
+  height: 75px;
   width: 100%;
   background: var(--primary);
   z-index: 99;
@@ -35,15 +35,15 @@ nav.top-nav > img {
   position: absolute;
   top: 7px;
   left: 50%;
-  height: 50px;
-  width: 200px;
+  height: 64px;
+  width: 300px;
   transform: translateX(-50%);
 }
 nav.top-nav > ul {
   position: absolute;
   top: 64px;
   list-style: none;
-  width: 100%;
+  width: 300px;
   transition: all 0.2s;
   transform: translateX(-100%);
 }
@@ -51,23 +51,22 @@ nav.top-nav > ul.open {
   transform: translateX(0%);
 }
 nav.top-nav > ul > li {
-  padding: 2%;
+  padding: 2% 24px;
   width: 100%;
   background: var(--primary);
   transition: all 0.2s;
 }
-nav.top-nav > ul > li:hover {
-  background-color: var(--background-color-hover);
-}
 nav.top-nav > ul > li > a {
   color: var(--light-text);
   font-size: 18px;
+  width: 100%;
+  display: block;
 }
 
 nav > .hamburger-menu {
-  width: 32px;
+  width: 48px;
   height: 24px;
-  margin: 20px 24px;
+  margin: 24px 24px;
   cursor: pointer;
   background: none;
   border: none;
@@ -75,38 +74,37 @@ nav > .hamburger-menu {
 .hamburger-menu > .hamburger-menu-lines {
   background: #fff;
   height: 4px;
-  width: 32px;
+  width: 48px;
   position: relative;
   display: block;
 }
 .hamburger-menu > .hamburger-menu-lines::before {
   background: #fff;
   height: 4px;
-  width: 32px;
+  width: 48px;
   content: ' ';
   display: block;
   position: relative;
-  top: -10px;
+  top: -17px;
 }
 .hamburger-menu > .hamburger-menu-lines::after {
   background: #fff;
   height: 4px;
-  width: 32px;
+  width: 48px;
   content: ' ';
   display: block;
   position: relative;
-  top: 6px;
+  top: 13px;
 }
 /* TODO check out if main can have the margin */
 main {
-  margin-top: 64px;
+  margin-top: 75px;
 }
 footer {
   display: flex;
   flex-direction: column;
   background: var(--primary);
   color: #fff;
-  border-top: solid 4px var(--background-color-hover);
   padding-top: 10px;
 }
 footer a {
