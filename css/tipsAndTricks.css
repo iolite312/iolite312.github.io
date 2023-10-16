@@ -1,15 +1,73 @@
-#tipsandtrickspage article > section,
-#tipsandtrickspage header > section {
-    margin: 10px 24px;
+#tipsandtricks {
+    margin: 75px auto 0;
+    width: 710px;
 }
-#tipsandtrickspage article ul {
+#tipsandtricks aside {
+    padding: 24px 0;
+    font-size: 12px;
+}
+#tipsandtricks > article, #tipsandtricks > section {
+    margin: 25px 0;
+}
+#tipsandtricks h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+#tipsandtricks section > img {
+    width: 250px;
+    aspect-ratio: 1/1;
+}
+#tipsandtricks > section {
+    display: flex;
+    justify-content: space-between;
+}
+#tipsandtricks article > section + section {
+    margin: 12.5px 0;
+}
+#tipsandtricks .small {
+    width: 345px;
+}
+#tipsandtricks ul {
+    width: 250px;
     padding-left: 16px;
-    margin-bottom: 16px;
 }
-#tipsandtrickspage h2 {
-    margin: 16px 0;
-    color: var(--background-color);
+.handywebsites {
+    display: flex;
+    justify-content: space-between;
 }
-#tipsandtrickspage {
-    margin-top: 70px;
+.handywebsites figure {
+    display: grid;
+    grid-template-areas: 
+        "stackoverflow MDN"
+        "stackoverflow codepen";
+    width: 300px;
+    align-items: center;
+}
+.handywebsites figure img:nth-child(1) {
+    grid-area: stackoverflow;
+    height: 100%;
+}
+.handywebsites figure img:nth-child(2) {
+    grid-area: MDN;
+}
+.handywebsites figure img:nth-child(3) {
+    grid-area: codepen;
+}
+.youtube {
+    display: flex;
+    justify-content: space-between;
+}
+.youtube figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+.youtube section {
+    display: flex;
+    gap: 0 12px;
+}
+#tipsandtricks article:last-child p {
+    margin-bottom: 10px;
+}
+#tipsandtricks article:last-child ol {
+    padding-left: 16px;
 }
