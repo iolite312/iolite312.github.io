@@ -67,3 +67,24 @@
 #tipsandtricks article:last-child ol {
     padding-left: 16px;
 }
+@media (max-width: 768px) {
+    #tipsandtricks {
+        width: 304px;
+    }
+    #tipsandtricks > section {
+        flex-direction: column;
+        gap: 20px 0;
+    }
+    #tipsandtricks .small {
+        width: 304px;
+    }
+    .handywebsites, .youtube {
+        flex-direction: column;
+    }
+    .youtube section {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
