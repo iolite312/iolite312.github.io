@@ -2,10 +2,6 @@
     margin: 75px auto 0;
     width: 710px;
 }
-#supplies aside {
-    padding: 24px 0;
-    font-size: 12px;
-}
 #supplies > article, #supplies > section {
     margin: 25px 0;
 }

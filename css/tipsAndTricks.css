@@ -2,10 +2,6 @@
     margin: 75px auto 0;
     width: 710px;
 }
-#tipsandtricks aside {
-    padding: 24px 0;
-    font-size: 12px;
-}
 #tipsandtricks > article, #tipsandtricks > section {
     margin: 25px 0;
 }
