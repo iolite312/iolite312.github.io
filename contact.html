@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Leon Watertor">
+	<meta name="keywords" content="HTML, CSS, Python, Tutorials">
+	<meta name="description" content="Hoe begin je met coderen">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/contact.css" type="text/css">
+	<link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+	<script defer src="js/navbar.js"></script>
+	<title>Home - Hoe begin je met coderen</title>
+</head>
+
+<body>
+	<header>
+		<nav class="top-nav">
+			<button class="hamburger-menu">
+				<span class="hamburger-menu-lines"></span>
+			</button>
+			<img src="images/logo.svg" alt="Logo of the website" title="Logo of the website">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="supplies.html">Benodigdheden</a></li>
+				<li><a href="assignments.html">Opdrachten</a></li>
+				<li><a href="futureInICT.html">Toekomst in de ICT</a></li>
+				<li><a href="tipsAndTricks.html">Tips & Tricks</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="contact">
+        <aside class="breadcrumbs">
+            <a href="index.html">Home</a> / <a href="contact.html">Contact</a>
+        </aside>
+        <h2>Contact Formulier</h2>
+        <section>
+            <form action="" method="post">
+                <legend aria-hidden="true">aanhef</legend>
+                <fieldset class="no">
+                    <p><em>Aanhef*</em></p>
+                    <input type="radio" name="aanhef" id="Dhr" required>
+                    <label for="Dhr">Dhr</label>
+                    <input type="radio" name="aanhef" id="Mevr" required>
+                    <label for="Mevr">Mevr</label>
+                </fieldset>
+                <section>
+                    <fieldset class="down">
+                        <label for="name">Naam*:</label>
+                        <input type="text" id="name" autocomplete="on" required>
+                    </fieldset>
+                    <fieldset class="down">
+                        <label for="email">Email*:</label>
+                        <input type="email" id="email" autocomplete="on" required>
+                    </fieldset>
+                </section>
+                <fieldset class="down">
+                    <label for="phone">Telefoon:</label>
+                    <input type="tel" id="phone" autocomplete="on">
+                </fieldset>
+                <fieldset class="down">
+                    <label for="message">Bericht*:</label>
+                    <textarea name="message" id="message" required></textarea>
+                </fieldset>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+	</main>
+	<footer>
+		<section>
+			<h3>Navigatie</h3>
+			<nav class="bottom-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="supplies.html">Benodigdheden</a></li>
+					<li><a href="assignments.html">Opdrachten</a></li>
+					<li><a href="futureInICT.html">Toekomst in de ICT</a></li>
+					<li><a href="tipsAndTricks.html">Tips & Tricks</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section>
+			<img src="images/logo.svg" alt="Logo van de website">
+		</section>
+		<section>
+			<h3>Contactinformatie</h3>
+			<ul>
+				<li>
+					<a href="tel:1234">Tel: 1234</a>
+				</li>
+				<li>
+					<a href="mailto:1@1.com">Mail: 1@1.com</a>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<p>Copyright &copy;2023 Inholland</p>
+		</section>
+	</footer>
+</body>
+</html>
