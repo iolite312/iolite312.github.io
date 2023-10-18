@@ -74,6 +74,7 @@ p::first-letter {
 aside.breadcrumbs {
   padding: 24px 0;
   font-size: 12px;
+  color: #006400;
 }
 
 /* Navbar begin */
