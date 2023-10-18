@@ -86,3 +86,14 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: var(--primary);
 }
+@media (max-width: 768px) {
+    #contact {
+        width: 304px;
+    }
+    #contact form {
+        width: 304px;
+    }
+    #contact form section {
+        flex-direction: column;
+    }
+}
