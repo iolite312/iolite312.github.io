@@ -1,0 +1,29 @@
+#futureInICT {
+    margin: 75px auto 0;
+    width: 710px;
+}
+
+#futureInICT h2 {
+    font-size: 28px;
+    display: flex;
+}
+
+#futureInICT article {
+    display: flex;
+    justify-content: space-between;
+}
+#futureInICT article:nth-child(2) {
+    margin-bottom: 25px;
+}
+
+#futureInICT article>section {
+    width: 345px;
+}
+#futureInICT article>img {
+    width: 255px;
+    height: 255px;
+    margin-top: 38px;
+}
+footer {
+    margin-top: 25px;
+}
