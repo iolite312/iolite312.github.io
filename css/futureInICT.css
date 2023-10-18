@@ -27,3 +27,18 @@
 footer {
     margin-top: 25px;
 }
+@media (max-width: 768px) {
+    #futureInICT {
+        width: 304px;
+    }
+    #futureInICT article>section {
+        width: 304px;
+    }
+    #futureInICT article {
+        flex-direction: column;
+    }
+    #futureInICT article:nth-child(3) {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+}
