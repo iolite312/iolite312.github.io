@@ -45,5 +45,6 @@
     }
     #homepage header > img{
         height: 40px;
+        float: left;
     }
 }
