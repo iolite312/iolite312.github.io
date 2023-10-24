@@ -1,6 +1,6 @@
 #contact {
     margin: 75px auto 0;
-    width: 710px;
+    width: 900px;
 }
 
 #contact h2 {
@@ -13,8 +13,11 @@
 
 #contact>section {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+}
+#contact > section > article {
+    margin-top: 40px;
+    width: 345px;
 }
 
 #contact fieldset {
@@ -39,7 +42,7 @@
     border-style: solid;
     padding: 28px;
     margin-top: 40px;
-    width: 500px;
+    min-width: 500px;
 }
 
 #contact input:not(input[type="radio"]):not(input[type="submit"]),
@@ -92,8 +95,12 @@ input[type="submit"]:hover {
     }
     #contact form {
         width: 304px;
+        min-width: unset;
     }
     #contact form section {
+        flex-direction: column;
+    }
+    #contact>section {
         flex-direction: column;
     }
 }

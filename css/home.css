@@ -16,7 +16,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin: 65px;
+    margin: 25px 65px 65px;
     gap: 0 24px;
 }
 .articles article {
