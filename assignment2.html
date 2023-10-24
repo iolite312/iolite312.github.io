@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leon Watertor">
+    <meta name="keywords" content="HTML, CSS, Python, Tutorials">
+    <meta name="description" content="Hoe begin je met coderen">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/assignments.css" type="text/css">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <script defer src="js/navbar.js"></script>
+    <script defer src="js/dropdown.js"></script>
+    <title>Opdracht 2 - Hoe begin je met coderen</title>
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <button class="hamburger-menu">
+                <span class="hamburger-menu-lines"></span>
+            </button>
+            <img src="images/logo.svg" alt="Logo of the website" title="Logo of the website">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="supplies.html">Benodigdheden</a></li>
+                <li><a href="assignment1.html">Opdrachten</a></li>
+                <li><a href="futureInICT.html">Toekomst in de ICT</a></li>
+                <li><a href="tipsAndTricks.html">Tips & Tricks</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="assignment2" class="assignments">
+        <aside class="breadcrumbs">
+            <a href="index.html">Home</a> / <a href="assignment2.html">Opdrachten</a>
+        </aside>
+        <article>
+            <section>
+                <section>
+                    <h2>Opdrachten</h2>
+                    <p>Op deze pagina ga ik jou de basis leren van python dat doen door middel van de turtle module in
+                        python. Met deze module kunnen we dingen gaan tekenen</p>
+                </section>
+                <ul>
+                    <li>Een account bij <a href="replit.com" target="_blank">Replit</a></li>
+                </ul>
+            </section>
+            <section>
+                <section>
+                    <h2>Opdracht 2:</h2>
+                    <p><strong>Stap 1:</strong> Ga naar replit en log in met het account wat je heb aangemaakt en klik
+                        op ”Create repl” en kies de python (turtle) template.</p>
+                    <p><strong>Stap 2:</strong> We hebben nu een main.py gekregen daar staat wat code in en die gaan we
+                        verwijderen.</p>
+                    <p><strong>Stap 3:</strong> Als je wilt tekenen met de turtle module, dan moet je dat op de
+                        allereerste regel van je programma aangeven. Dit doe je door de regel <em>import turtle</em> op
+                        te schrijven. De turtle kijkt altijd in het begin naar rechts.</p>
+                </section>
+                <img src="images/assignment2/python.png" alt="een plaatje met een Python logo" title="Python logo">
+            </section>
+            <p><strong>Stap 4:</strong> Stap 4: Als je nu op nieuwe regel <em>turtle.forward(100)</em> en dan op run
+                druk zie dat de turtle 100 stappen naar voren doet, maar je kan ook naar achter doen en dat doe je met
+                <em>turtle.backward(100)</em> en dan zie je dat de turtle 100 stappen naar achteren doet. Maar met 1
+                richting
+                kunnen we niet heel veel dus we gaan nu de turtle laten draaien zodat hij een nieuwe richting op kan
+                tekenen. Dat kunnen we doen door <em>turtle.left()</em> of <em>turtle.right()</em> in te typen. Dus met
+                dit commando
+                <em>turtle.right(90)</em> draait hij 90 graden naar rechts en andersom als er <em>turtle.left()</em>
+                stond draait hij 90
+                graden naar links. Probeer nu eens een vierkant te maken met wat je tot nu toe geleerd hebt.
+            </p>
+            <figure class="images">
+                <img src="images/assignment2/code.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment2/square2.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 5:</strong>Wat we nu zien is dat we heel veel code herhalen en je zou denken is daar niet
+                een betere manier voor. Dat is er zeker daarvoor kunnen we de functie dat heet een for loop dus in feite
+                een lus die x aantel keer word uitgevoerd dus als we nu <em>for i in range(4):</em> typen en dan naar
+                een nieuwe
+                regel gaan en op tab drukken en <em>turtle.forward(100)</em> en weer naar een nieuwe regel en tab
+                drukken en
+                <em>turtle.right(90)</em> typen en dan op run drukken zien we dat we dezelfde resultaat krijgen dan vier
+                keer
+                hetzelfde onder elkaar. Dan zien we eigenlijk dat we met minder code hetzelfde kunnen bereiken
+            </p>
+            <figure class="images">
+                <img src="images/assignment2/square.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment2/square2.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 6: </strong>Nu ga je zelf wat proberen te maken zonder de hulp van mij. Je gaat nu
+                het onderstaande plaatje proberen na te maken door middel van de kennis die je hebt gebruikt om de
+                andere opdrachten te maken. Klik op het rechter plaatje voor een oplossing die je zou kunnen doen.</p>
+            <figure class="images">
+                <img src="images/assignment2/star.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment2/1img.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 7:</strong>We gaan nu meerdere figuurtjes teken, maar hoe doen we dat nou onze pen van de
+                turtle staat altijd op het papier. We kunnen de pen ook optillen en dat doen we met het commando
+                <em>turtle.up()</em> zo kom je in &ldquo;wandel-mode&rdquo; dus je kan nu overal naar toe lopen zonder
+                lijntjes te teken en
+                als je weer wilt beginnen met tekenen doe je <em>turtle.down()</em> en zo kom je weer in
+                &ldquo;pen-mode&rdquo; hier onder
+                heb ik een foto staan van 2 figuren staan probeer deze na te maken en zorg dat ze naast elkaar komen te
+                staan. om tekort ruimte te verkomen zet voordat je code ga schrijven <em>turtle.up()</em> nieuwe regel
+                dan
+                <em>turtle.setposition(-100,100)</em> nieuwe regel dan <em>turtle.down()</em>.
+            </p>
+            <figure class="images">
+                <img src="images/assignment2/figure.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment2/2img.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 8:</strong>Als laatste gaan we een huisje teken, en je mag zelf invullen wat voor een huisje
+                je gaat tekenen en je kan het jezelf zo moeilijk maken als je het wilt. Ik zal wel hieronder een
+                voorbeeld laten zien wat je zou kunnen maken, maar probeer zelf een mooier huisje te maken.</p>
+            <figure class="images">
+                <img src="images/assignment2/image12.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment2/house.png" alt="images of code" title="plaatjes over code">
+            </figure>
+        </article>
+        <aside class="assignment-selector">
+            <button class="chevron">
+                <img src="images/chevron.svg" alt="chevron" title="dropdown voor opdrachten">
+            </button>
+            <ul>
+                <li><a href="assignment1.html">Opdracht 1</a></li>
+                <li><a href="assignment2.html">Opdracht 2</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <section>
+            <h3>Navigatie</h3>
+            <nav class="bottom-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="supplies.html">Benodigdheden</a></li>
+                    <li><a href="assignment1.html">Opdrachten</a></li>
+                    <li><a href="futureInICT.html">Toekomst in de ICT</a></li>
+                    <li><a href="tipsAndTricks.html">Tips & Tricks</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <img src="images/logo.svg" alt="Logo van de website">
+        </section>
+        <section class="contactinfo">
+            <h3>Contactinformatie</h3>
+            <ul>
+                <li>
+                    <a href="tel:0612345678">Tel: 0612345678</a>
+                </li>
+                <li>
+                    <a href="mailto:1@1.com">Mail: placeholder@gmail.com</a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <p>Copyright &copy;2023 Inholland</p>
+        </section>
+    </footer>
+</body>
+
+</html>

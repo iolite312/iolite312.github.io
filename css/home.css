@@ -16,7 +16,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    margin: 65px;
+    margin: 25px 65px 65px;
     gap: 0 24px;
 }
 .articles article {
@@ -47,4 +47,8 @@
         height: 40px;
         float: left;
     }
+}
+.contactinfo ul{
+    list-style: none;
+    padding: 0;
 }

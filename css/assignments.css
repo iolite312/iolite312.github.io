@@ -1,0 +1,107 @@
+.assignments {
+    margin: 75px auto 0;
+    width: 710px;
+}
+.images img {
+    width: 345px;
+    height: fit-content;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article > section, article > p, article > .images {
+    margin-top: 25px;
+}
+article > section:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+article > section:nth-child(1) section p {
+    width: 345px;
+}
+article > section:nth-child(1) ul {
+    width: 260px;
+    margin-top: 30px;
+}
+article > section:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+article > section:nth-child(2) section p {
+    width: 345px;
+}
+article > section:nth-child(2) img {
+    width: 254px;
+    height: 225px;
+}
+.assignment-selector {
+    position: fixed;
+    top: 200px;
+    left: 0;
+}
+.assignment-selector.open ul {
+    transform: translateX(0);
+}
+.assignment-selector.open button {
+    transform: translateX(110px);
+}
+.assignment-selector.open button img {
+    transform: rotate(180deg);
+}
+.assignment-selector button {
+    background: var(--primary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 100px 100px 0;
+    cursor: pointer;
+}
+.assignment-selector ul {
+    top: -55px;
+    position: relative;
+    background: var(--primary);
+    padding: 10px;
+    transform: translateX(-100%);
+}
+.assignment-selector li {
+    padding: 5px 0px;
+}
+.assignment-selector a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.assignment-selector a:hover {
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .assignments {
+        margin: 75px auto 0;
+        width: 304px;
+    }
+    .assignment-selector button {
+        background: var(--primary);
+        border: none;
+        padding: 10px;
+        border-radius: 0 100px 100px 0;
+        cursor: pointer;
+    }
+    .images {
+        flex-direction: column;
+    }
+    .images img {
+        width: 304px;
+    }
+    article > section:nth-child(1) {
+        flex-direction: column;
+    }
+    article > section:nth-child(2) {
+        flex-direction: column;
+        gap: 10px 0;
+    }
+    article > section:nth-child(2) section p, article > section:nth-child(1) section p {
+        width: 304px;
+    }
+}

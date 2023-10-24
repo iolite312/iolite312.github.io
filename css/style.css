@@ -46,7 +46,7 @@ h3 {
   color: var(--primary);
 }
 
-button {
+button:not(.hamburger-menu):not(.chevron) {
   border-radius: 100px;
   background: var(--link);
   border-width: 0;
@@ -189,7 +189,7 @@ footer {
   padding-top: 30px;
   background: var(--primary);
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 20% 55% 25%;
 }
 
 footer a,
@@ -223,7 +223,7 @@ footer section:nth-child(2)>img {
 
 footer section:nth-child(3) {
   grid-column: 3 / 4;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 
 footer section:nth-child(4) {

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leon Watertor">
+    <meta name="keywords" content="HTML, CSS, Python, Tutorials">
+    <meta name="description" content="Hoe begin je met coderen">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/assignments.css" type="text/css">
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+    <script defer src="js/navbar.js"></script>
+    <script defer src="js/dropdown.js"></script>
+    <title>Opdracht 1 - Hoe begin je met coderen</title>
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <button class="hamburger-menu">
+                <span class="hamburger-menu-lines"></span>
+            </button>
+            <img src="images/logo.svg" alt="Logo of the website" title="Logo of the website">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="supplies.html">Benodigdheden</a></li>
+                <li><a href="assignment1.html">Opdrachten</a></li>
+                <li><a href="futureInICT.html">Toekomst in de ICT</a></li>
+                <li><a href="tipsAndTricks.html">Tips & Tricks</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="assignment1" class="assignments">
+        <aside class="breadcrumbs">
+            <a href="index.html">Home</a> / <a href="assignment1.html">Opdrachten</a>
+        </aside>
+        <article>
+            <section>
+                <section>
+                    <h2>Opdrachten</h2>
+                    <p>Op deze pagina ga ik jou helpen om een basis website te maken en dat je na deze opdrachten
+                        basiskennis heb van HTML en CSS. Wat ga je nodig hebben voor deze opdracht:</p>
+                </section>
+                <ul>
+                    <li>Een account bij <a href="replit.com" target="_blank">Replit</a></li>
+                    <li>Een foto van jezelf*</li>
+                    <li>Een stukje tekst over jezelf*</li>
+                    <li>*Als je niet een stukje over jezelf wilt gebruiken mag het ook over een onderwerp wat jij
+                        interessant vind</li>
+                </ul>
+            </section>
+            <section>
+                <section>
+                    <h2>Opdracht 1:</h2>
+                    <p><strong>Stap 1:</strong> Ga naar replit en log in met het account wat je heb aangemaakt en klik
+                        op &rdquo;Create repl&rdquo; en kies de HTML, CSS, JS template.</p>
+                    <p><strong>Stap 2:</strong> We hebben nu drie bestanden een index.html, script.js en een style.css.
+                        Open de index en verwijder alles wat er in de &lt;body&gt; tag staat en verwijder het script.js
+                        bestand dat hebben we niet nodig voor deze opdracht</p>
+                    <p><strong>Stap 3:</strong> Open nu de index.html en style.css in replit</p>
+                </section>
+                <img src="images/assignment1/html.png" alt="een plaatje met een html logo" title="html logo">
+            </section>
+            <p><strong>Stap 4:</strong> We gaan nou een beetje code schrijven in de index.html. Waar een html pagina uit
+                bestaat is een &lt;DOCTYPE html&gt; boven aan de pagina dat is zodat de browser weet welke versie van
+                HTML
+                wij gebruiken. En daarna komt een &lt;html&gt; &lt;/html&gt; in deze tags maken we eigenlijk onze hele
+                pagina
+                in de en waarom er 1 een / er in heeft is is omdat dat het een sluitings tag is dus elke html tag die we
+                gebruiken AKA alles wat in deze &lt;&gt; symbolen staan sluit je af met een / dus als we een paragraaf
+                hebben, openen we hem zo &lt;p&gt; en sluiten we de paragraaf zo &lt;/p&gt; zo weet de browser wat hij
+                moeten
+                laten zien op de website, en weet hij welke blokken we allemaal hebben. Nu doen we in de &lt;html&gt;
+                tag
+                een &lt;head&gt;&lt;/head&gt; en &lt;body&gt;&lt;/body&gt;. De &lt;head&gt; tag is eigenlijk waar je
+                alle linkjes inzet
+                naar externe content, zoals een CSS bestand of een link naar google voor bepaalde lettertypes die je op
+                je website wil laten zien. Wat je ook er in kan zetten zijn &lt;meta&gt; tags, maar dat is ver buiten
+                deze
+                opdracht als je wat meer over wil lezen kan je kijken op W3Schools. En de &lt;head&gt; is ook
+                onzichtbaar
+                voor de gebruiker. Daar in tegenstelling is de
+                &lt;body&gt; wel zichtbaar voor de gebruiker, want daar zetten we alle content in die we aan de
+                gebruiker
+                willen laten zien(de text zal wat groter zijn bij mij want ik heb een beetje ingezoomed voor de
+                leesbaarheid)
+            </p>
+            <figure class="images">
+                <img src="images/assignment1/image1.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment1/image4.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 5:</strong>We gaan nu wat tekst op de website zetten dat kunnen we doen door middel van een
+                &lt;h1&gt; tag, dus zet een &lt;h1&gt;&lt;/h1&gt; tag in je body en zet tussen de opening en
+                sluitingstags de
+                tekst die wilt laten zien, bijvoorbeeld de naam van je onderwerp. Als je dat gedaan hebt sla je het
+                bestand op en CTRL + S en kijk je in de browser naar de pagina die je geopend had in stap 2, maar dat is
+                gek er staat helemaal niks dat klopt je moet je pagina verversen met F5 zodat je aanpassingen in de
+                browser komen en als goed is zie je nu de tekst die je hebt geschreven in je replit. Hetzelfde gaan we
+                nu ook doen met het plaatje en het stukje tekst wat je heb voor bereid en plaatje op website is iets
+                anders dan tekst op je website neerzetten. Voor een plaatje gebruiken we een &lt;img /&gt; tag maar
+                zoals
+                je ziet heeft deze geen sluitingstag dat komt omdat deze tag zelf sluitend is dus om een plaatje te
+                laten zien typen we in de &lt;img /&gt; tag src=&rdquo;foto.jpg&rdquo; en in &ldquo; &rdquo; deze quotes
+                moet je natuurlijk de naam
+                van jou foto in zetten dus als je foto mij.png heet moet je &lt;img /&gt; er zo uit zien &lt;img
+                src=&rdquo;foto.jpg&rdquo; /&gt; als hij in een folder staat is het weer wat anders maar dat is iets te
+                ver in de stof
+                voor deze opdracht. Voor belangrijke kopjes daar voor gebruik je &lt;h1&gt; t/m &lt;h6&gt; en voor
+                normale
+                teksten gebruiken wij &lt;p&gt;&lt;/p&gt; tags dat zijn in feite paragrafen waar je tekst in kunt zetten
+                dus
+                plak tussen de open en sluit tag je tekst en ververs je pagina. Als goed is zie je nu een kopje met je
+                onderwerp, een plaatje (die veelste groot is waarschijnlijk) en een stuk tekst daar onder.</p>
+            <figure class="images">
+                <img src="images/assignment1/image5.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment1/image6.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 6: </strong>We gaan nou een klein beetje CSS doen, maar om te beginnen moeten we eerst het
+                CSS document linken aan de index.html en dat doen we door in de &lt;head&gt; van de index dit neer te
+                zetten &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt; nou weet de browser dat hij
+                dat document ook moet
+                gebruiken. We gaan nu de achtergrond een andere kleur geven. Dat kunnen we doen door in het CSS bestand
+                body { background: #F00; } te typen en als je nu het bestand opsla en kijk in de browser dan zie je dat
+                de achtergrond rood is geworden. Maar zwarte tekst op een rode achterond is niet makkelijk te lezen dus
+                voeg bij body tussen de haakjes ook color: #fff; toe en sla het bestand op nou zie je dat de tekst wit
+                is geworden als je de pagina ververs.</p>
+            <figure class="images">
+                <img src="images/assignment1/image7.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment1/image8.png" alt="images of code" title="plaatjes over code">
+            </figure>
+            <p><strong>Stap 7:</strong>We gaan nu iets verder in de stof van CSS. Met behulp van classes en id&rsquo;s
+                kan je wat gerichter stylen dan dat we nu hebben gedaan. Het verschil tussen classes en id&rsquo;s zijn
+                dat je classes meerdere keren kan gebruiken en id&rsquo;s kan je maar 1 keer per pagina gebruiken. We
+                gaan nu een class aanmaken in het CSS bestand en dat doe je met een . gevolgd met hoe je de class wil
+                noemen dus .textAboutMe {} en natuurlijk de haakjes er achter want anders krijg je een error in je
+                document we gaan nu bijvoorbeeld de tekst geel maken met behulp van een class dus in het CSS document
+                zetten we onder de body CSS een class .textAboutMe { color: #FF0 } maar als je nu gaat kijken op de
+                website zie je dat de tekst niet geel is geworden, dat komt omdat we nog niet in een class hebben
+                gespecificeerd in de index.html dus als we de tekst geel willen hebben moeten we in de openingstag van
+                de &lt;p&gt; dit toevoegen class=&rdquo;textAboutMe&rdquo; dus dan komt het er zo uit te zien &lt;p
+                class=&rdquo;textAboutMe&rdquo;&gt; hetzelfde is met id&rsquo;s maar inplaats van class staat er
+                id=&rdquo;&rdquo;. En om een id te specificeren in het CSS document dat doe je met een # inplaats van
+                een . dus #textAboutMe {}</p>
+            <figure class="images">
+                <img src="images/assignment1/image9.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment1/image10.png" alt="images of code" title="plaatjes over code">
+                <img src="images/assignment1/image11.png" alt="images of code" title="plaatjes over code">
+            </figure>
+        </article>
+        <aside class="assignment-selector">
+            <button class="chevron">
+                <img src="images/chevron.svg" alt="chevron" title="dropdown voor opdrachten">
+            </button>
+            <ul>
+                <li><a href="assignment1.html">Opdracht 1</a></li>
+                <li><a href="assignment2.html">Opdracht 2</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <section>
+            <h3>Navigatie</h3>
+            <nav class="bottom-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="supplies.html">Benodigdheden</a></li>
+                    <li><a href="assignment1.html">Opdrachten</a></li>
+                    <li><a href="futureInICT.html">Toekomst in de ICT</a></li>
+                    <li><a href="tipsAndTricks.html">Tips & Tricks</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <img src="images/logo.svg" alt="Logo van de website">
+        </section>
+        <section class="contactinfo">
+            <h3>Contactinformatie</h3>
+            <ul>
+                <li>
+                    <a href="tel:0612345678">Tel: 0612345678</a>
+                </li>
+                <li>
+                    <a href="mailto:1@1.com">Mail: placeholder@gmail.com</a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <p>Copyright &copy;2023 Inholland</p>
+        </section>
+    </footer>
+</body>
+
+</html>
