@@ -12,6 +12,21 @@
 #homepage header > img{
     height: 48px;
 }
+#homepage article > a {
+    border-radius: 100px;
+    background: var(--link);
+    border-width: 0;
+    padding: 11px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 100ms ease-in;
+    text-align: center;
+    text-decoration: none;
+}
+#homepage article > a:hover {
+    background: var(--primary);
+}
 .articles {
     display: flex;
     align-items: flex-end;
