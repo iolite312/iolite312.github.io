@@ -47,10 +47,12 @@
 				<p>Je kan natuurlijk ook contact opnemen zonder het formulier&period; Dat kan je doen via deze email&colon;
 					placeholder&commat;gmail&period;com</p>
 			</article>
-			<legend aria-hidden="true">aanhef</legend>
 			<form action="contact.php" method="post">
+				<fieldset aria-hidden="true" class="first-fieldset">
+					<legend aria-hidden="true">aanhef</legend>
+				</fieldset>
 				<fieldset class="no">
-					<p><em>Aanhef&ast;</em></p>
+					<p>Aanhef&ast;</p>
 					<input type="radio" name="aanhef" id="Dhr" required>
 					<label for="Dhr">Dhr</label>
 					<input type="radio" name="aanhef" id="Mevr" required>
