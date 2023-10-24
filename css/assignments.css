@@ -1,0 +1,39 @@
+.assignments {
+    margin: 75px auto 0;
+    width: 710px;
+}
+.images img {
+    width: 345px;
+    height: fit-content;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article > section, article > p, article > .images {
+    margin-top: 25px;
+}
+article > section:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+article > section:nth-child(1) section p {
+    width: 345px;
+}
+article > section:nth-child(1) ul {
+    width: 260px;
+    margin-top: 30px;
+}
+article > section:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+article > section:nth-child(2) section p {
+    width: 345px;
+}
+article > section:nth-child(2) img {
+    width: 254px;
+    height: 225px;
+}
