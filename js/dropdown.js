@@ -1,4 +1,4 @@
-var dropdown = document.querySelector(".assignment-selector");
-dropdown.addEventListener('click', () => {
-    dropdown.classList.toggle('open')
+var assignment = document.querySelector(".assignment-selector");
+assignment.addEventListener('click', () => {
+    assignment.classList.toggle('open')
 })

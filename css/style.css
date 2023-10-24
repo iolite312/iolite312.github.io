@@ -39,6 +39,9 @@ a:hover:not(footer a):not(button a) {
 a:active, a:focus {
   color: var(--primary);
 }
+h1 {
+  font-size: 27px;
+}
 
 h1,
 h2,
@@ -63,7 +66,7 @@ main {
   margin-top: 75px;
 }
 tr:nth-child(even) {
-  background: #d9d9d9;
+  background: #cff;
 }
 tr:nth-child(odd) {
   background: #fff;
@@ -189,7 +192,7 @@ footer {
   padding-top: 30px;
   background: var(--primary);
   display: grid;
-  grid-template-columns: 20% 55% 25%;
+  grid-template-columns: 25% 50% 25%;
 }
 
 footer a,

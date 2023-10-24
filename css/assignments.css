@@ -5,6 +5,7 @@
 .images img {
     width: 345px;
     height: fit-content;
+    float: left;
 }
 .images {
     display: flex;
