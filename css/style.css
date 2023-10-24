@@ -46,7 +46,7 @@ h3 {
   color: var(--primary);
 }
 
-button {
+button:not(.hamburger-menu):not(.chevron) {
   border-radius: 100px;
   background: var(--link);
   border-width: 0;
