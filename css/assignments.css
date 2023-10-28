@@ -2,18 +2,18 @@
     margin: 75px auto 0;
     width: 710px;
 }
-.images img {
+.img img {
     width: 345px;
     height: fit-content;
     float: left;
 }
-.images {
+.img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-article > section, article > p, article > .images {
+article > section, article > p, article > .img {
     margin-top: 25px;
 }
 article > section:nth-child(1) {
@@ -89,10 +89,10 @@ article > section:nth-child(2) img {
         border-radius: 0 100px 100px 0;
         cursor: pointer;
     }
-    .images {
+    .img {
         flex-direction: column;
     }
-    .images img {
+    .img img {
         width: 304px;
     }
     article > section:nth-child(1) {
