@@ -76,7 +76,7 @@ textarea {
 
 input[type="submit"] {
     border-radius: 100px;
-    background: var(--link);
+    background: #006400;
     border-width: 0;
     padding: 11px;
     color: #fff;
@@ -87,7 +87,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: var(--primary);
+    background: #003c00;
 }
 @media (max-width: 768px) {
     #contact {
