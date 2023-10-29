@@ -247,3 +247,6 @@ footer section:nth-child(4) {
 .first-fieldset {
   display: none;
 }
+.negate {
+  display: none;
+}
